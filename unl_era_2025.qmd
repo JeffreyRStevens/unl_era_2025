@@ -1,0 +1,363 @@
+---
+title: "Canine Research and the Many Dogs Project"
+# subtitle: "Strange findings in canine cognition studies"
+author: "Jeff Stevens"
+date: ""
+institute: "Canine Cognition and Human Interaction Lab<br>Department of Psychology<br>Center for Brain, Biology & Behavior"
+format: 
+  revealjs:
+    theme: [moon, custom.scss]
+    logo: media/cchil_logo_white_N.png
+    # slug: "asci2024"
+    slide-number: true
+    footer: "<h2><code><a href = 'https://dogcog.unl.edu'>dogcog.unl.edu</a></code></h2>"
+---
+
+```{r}
+library(gt)
+library(tidyverse)
+```
+
+# Reliable science
+
+## Replication crisis
+
+![](media/replication_crisis.png){.absolute top="8%" left="14%" height="300"}
+
+::: {.source}
+[Naro 2016](https://thenib.com/repeat-after-me/)
+:::
+
+
+## Credibility revolution
+
+Movement to improve replicability
+
+![](media/badges.jpg)
+
+
+## A bit about me 
+
+![](media/species_studied.png){height="550" fig-align="center"}
+
+## Canine Cognition and Human Interaction Lab
+
+![](media/koda_choice.jpg){height="330"}
+![](media/cchil_sticker_black.png){height="330"}
+![](media/hai.jpg){height="330"}
+
+Established 2018
+
+
+# Replicating methods
+
+## Dog impulsivity
+
+:::{.fragment}
+![](media/dog_inhibition_chasing_pete-godfrey.png){.absolute top="8%" left="14%" height="300"}
+
+![](media/dog_inhibition_rolling_michael-oxendine.png){.absolute top="51%" left="0%" height="300"}
+
+![](media/dog_patience2_tamas-pap.png){.absolute top="51%" left="53%" height="300"}
+:::
+
+
+## Owner perceptions of dog impulsivity
+
+::: {.callout-tip appearance="simple"}
+## Research Question
+
+::: {style="font-size: 40px"}
+Do owner perceptions of dog impulsivity match impulsivity in a behavioral task?
+:::
+:::
+
+::: {.fragment}
+Based on and replicated [Brady et al., 2018](https://doi.org/10.1016/j.applanim.2018.01.003)
+:::
+
+::: {.source}
+[Stevens et al. 2022, _Animal Behavior & Cognition_](https://doi.org/10.26451/abc.09.03.02.2022)
+:::
+
+
+## Measuring owner perceptions
+
+### Dog Impulsivity Assessment Scale (DIAS)
+
+::: {.fragment}
+ * Behavioral regulation 
+ * Aggression 
+ * Responsiveness
+
+[Wright et al., 2011](https://doi.org/10.46867/ijcp.2011.24.02.03)
+:::
+
+
+::: {.source}
+[Stevens et al. 2022, _Animal Behavior & Cognition_](https://doi.org/10.26451/abc.09.03.02.2022)
+:::
+
+
+## Measuring spatial impulsivity
+
+![](media/dog_spatial_apparatus.jpg){height="550" fig-align="center"}
+
+::: {.source}
+[Stevens et al. 2022, _Animal Behavior & Cognition_](https://doi.org/10.26451/abc.09.03.02.2022)
+:::
+
+
+## Original results
+
+::: {.r-stack}
+![](media/bradyetal2018_0.png){fig-align="center" height="550"}
+
+![](media/bradyetal2018_3_last.png){fig-align="center" height="550" .fragment}
+:::
+
+::: {.source}
+[Brady et al. 2018, _Applied Anim Behav Sci_](https://doi.org/10.1016/j.applanim.2018.01.003)
+:::
+
+
+## Our results
+
+::: {.r-stack}
+![](media/dog_spatial_results_blank.png){height="550" fig-align="center"}
+
+::: {data-id="box1" style="background: #132E53; width: 500px; height: 600px; margin: 10px; position: absolute; top: 50px; left: 515px"}
+:::
+
+![](media/dog_spatial_results.png){.fragment height="550" fig-align="center"}
+
+::: {data-id="box1" style="background: #132E53; width: 500px; height: 600px; margin: 10px; position: absolute; top: 50px; left: 515px"}
+:::
+
+![](media/dog_spatial_results.png){.fragment height="550" fig-align="center"}
+
+:::
+
+::: {.source}
+[Stevens et al. 2022, _Animal Behavior & Cognition_](https://doi.org/10.26451/abc.09.03.02.2022)
+:::
+
+
+## Study conclusions
+
+::: {.incremental}
+* Owners not good at predicting dog impulsivity
+
+* Did not replicate Brady et al., 2018
+
+  - British know their dogs better than Americans
+  <!-- - Poor attempt at replication -->
+  - Different dog populations (breeds, neuter status)
+  - Different owner populations
+  - Less than robust methods in original study
+
+:::
+
+
+## Implications
+
+::: {.incremental}
+* Increase sample sizes
+* Conduct more replications (within and between labs)
+* Increase robustness and reproducibility of analyses
+* Post data publicly
+* Provide more and consistent info on owners
+* Consider populations of owners and dogs
+
+:::
+
+
+
+# Big team science
+
+
+## What is big team science?
+
+> Collaborations wherein a comparatively large number of researchers pool their intellectual and/or material resources to pursue a common goal
+
+---Baumgartner et al., 2023 _Royal Society Open Science_.
+
+
+## Why big team science?
+
+* Larger sample sizes
+* Less effort per research site
+* Consensus in methods design
+* Diverse subject pool
+* Many analysts involved in analysis
+<!-- * Shared labor in data validation and code checking -->
+
+
+## ManyDogs Project
+
+International research consortium of scientists with shared interest in canine behavior and cognition
+
+![](media/manydogs_banner.jpg){fig-align="center" height="300"}
+
+
+## ManyDogs Project Aims
+
+::: {.incremental}
+1. Attempt to replicate important studies
+2. Investigate moderators that require large sample sizes
+3. Develop consensus on methodological best practices
+4. Investigate cultural differences
+5. Set the bar for replicability of studies
+:::
+
+
+## ManyDogs 1
+
+::: {.callout-tip appearance="simple"}
+## Research Question
+
+::: {style="font-size: 40px"}
+Do dogs treat human pointing as communicative cues?
+:::
+:::
+
+::: {.fragment}
+![](media/dog-pointing.jpg){fig-align="center" width="550"}
+:::
+
+
+## Results
+
+::: {.r-stack}
+![](media/md1_overall_accuracy_0.png){fig-align="center" height="550"}
+
+![](media/md1_overall_accuracy_2.png){fig-align="center" height="550" .fragment}
+
+![](media/md1_overall_accuracy_4_last.png){fig-align="center" height="550" .fragment}
+:::
+
+::: {.source}
+[ManyDogs Project et al. 2023, _Animal Behavior & Cognition_](https://doi.org/10.26451/abc.10.03.03.2023)
+:::
+
+
+## Site effects
+
+::: {.r-stack}
+![](media/md1_site_accuracy_1.png){fig-align="center" height="550"}
+
+![](media/md1_site_accuracy_2_last.png){fig-align="center" height="550" .fragment}
+:::
+
+::: {.source}
+[ManyDogs Project et al. 2023, _Animal Behavior & Cognition_](https://doi.org/10.26451/abc.10.03.03.2023)
+:::
+
+
+## Site differences
+
+![](media/md1_owner_ages.png){fig-align="center" height="550"}
+
+::: {.source}
+[ManyDogs Project et al. 2023, _Animal Behavior & Cognition_](https://doi.org/10.26451/abc.10.03.03.2023)
+:::
+
+
+## Study conclusions
+
+::: {.incremental}
+* Dogs were slightly better than chance but no difference between conditions
+
+* Pretty consistent findings across sites
+
+* Results do not match robust literature showing point following
+
+* Likely due to method choices
+
+* Big differences in owner age distribution
+
+:::
+
+
+## Implications
+::: {.incremental}
+* Again, consider populations of owners and dogs
+* Many analysts improved analysis
+* Diverse viewpoints can bias methods
+* Consider multi-site replication
+
+:::
+
+
+# Going forward
+
+## Dog color vision
+
+::: {.r-stack}
+![](media/color_vision_orig.jpg){height="550"}
+
+![](media/color_vision_deut.png){.fragment height="550"}
+
+![](media/color_vision_deut_lowvis.png){.fragment height="550"}
+:::
+
+
+## Dog color preference
+
+![](media/dog_color_preference.jpg){fig-align="center" height="550"}
+
+::: {.source}
+[Roy et al. 2025, _Animal Cognition_](https://doi.org/10.1007/s10071-024-01928-9)
+:::
+
+
+## Dog color preference
+
+![](media/dog_color_preference_results.jpg){fig-align="center" height="550"}
+
+::: {.source}
+[Roy et al. 2025, _Animal Cognition_](https://doi.org/10.1007/s10071-024-01928-9)
+:::
+
+
+
+
+
+## Replicability
+
+::: {.incremental}
+* Increase sample sizes
+* Conduct more replications (within and between labs)
+* Increase robustness and reproducibility of analyses
+* Post data publicly
+* Provide more and consistent info on owners
+* Consider populations of owners and dogs
+:::
+
+
+## Thank you!
+
+![Jessica Barela](media/jessica_barela.jpg){.absolute top=80 left=-50 width="200"}
+![Hunter DeBoer](media/hunter_deboer.jpg){.absolute top=80 left=175 width="200"}
+![Hannah Fitzpatrick](media/hannah_fitzpatrick.jpg){.absolute top=80 left=400 width="200"}
+![Anwyn Gatesy-Davis](media/anwyn_gatesy-davis.jpg){.absolute top=80 left=625 width="200" height="200"}
+![London Wolff](media/london_wolff.jpg){.absolute top=80 left=875  width="200" height="200"}
+
+[Jessica <br>Barela]{.absolute top=300 left=-50}
+[Hunter <br>DeBoer]{.absolute top=300 left=175}
+[Hannah <br>Fitzpatrick]{.absolute top=300 left=400}
+[Anwyn <br>Gatesy-Davis]{.absolute top=300 left=625}
+[London <br>Wolff]{.absolute top=300 left=875}
+
+:::{.fragment}
+![](media/nsf_logo.jpg){.absolute top=425 left=100 width="200" height="200"}
+:::
+
+::: {.fragment}
+[`jstevens5@unl.edu`]{.absolute top=450 left=650}
+[`dogcog.unl.edu`]{.absolute top=500 left=650}
+[`@unl_cchil`]{.absolute top=550 left=650}
+[`r icons::icon_style(icons::fontawesome("envelope"), fill = "white")`]{.absolute top=455 left=600}
+[`r icons::icon_style(icons::fontawesome("home"), fill = "white")`]{.absolute top=505 left=598}
+[`r icons::icon_style(icons::fontawesome("instagram"), fill = "white")`]{.absolute top=555 left=603}
+:::

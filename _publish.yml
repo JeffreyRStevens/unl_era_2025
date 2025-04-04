@@ -1,0 +1,4 @@
+- source: elte_2024.qmd
+  quarto-pub:
+    - id: cb7139a9-5c1a-4dcd-a31c-3919b95dcd81
+      url: 'https://jeffreyrstevens.quarto.pub/elte_2024'
