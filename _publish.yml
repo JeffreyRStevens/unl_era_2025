@@ -1,4 +1,8 @@
 - source: elte_2024.qmd
   quarto-pub:
     - id: cb7139a9-5c1a-4dcd-a31c-3919b95dcd81
-      url: 'https://jeffreyrstevens.quarto.pub/elte_2024'
+      url: https://jeffreyrstevens.quarto.pub/elte_2024
+- source: unl_era_2025.qmd
+  quarto-pub:
+    - id: 7bff37cc-e09a-45d1-bf18-6a27024bbffc
+      url: https://jeffreyrstevens.quarto.pub/unl_era_2025

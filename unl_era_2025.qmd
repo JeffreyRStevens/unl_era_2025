@@ -11,6 +11,7 @@ format:
     # slug: "asci2024"
     slide-number: true
     footer: "<h2><code><a href = 'https://dogcog.unl.edu'>dogcog.unl.edu</a></code></h2>"
+    cap-location: bottom
 ---
 
 ```{r}
@@ -18,27 +19,39 @@ library(gt)
 library(tidyverse)
 ```
 
-# Reliable science
+# Introduction
 
-## Replication crisis
+<!-- ## Replication crisis -->
 
-![](media/replication_crisis.png){.absolute top="8%" left="14%" height="300"}
+<!-- ![](media/replication_crisis.png){.absolute top="22%" left="60%" height="400"} -->
 
-::: {.source}
-[Naro 2016](https://thenib.com/repeat-after-me/)
-:::
+<!-- :::{.fragment} -->
+<!-- Open Science Collaboration ([2015](https://doi.org/10.1126/science.aac4716)) -->
+<!-- ::: -->
+
+<!-- :::{.incremental} -->
+<!-- * 270 researchers -->
+
+<!-- * 100 replications -->
+
+<!-- * **68%** replication rate  -->
+<!-- ::: -->
+
+<!-- ::: {.source} -->
+<!-- Image from [Naro 2016](https://thenib.com/repeat-after-me/) -->
+<!-- ::: -->
 
 
-## Credibility revolution
+<!-- ## Credibility revolution -->
 
-Movement to improve replicability
+<!-- Movement to improve replicability -->
 
-![](media/badges.jpg)
+<!-- ![](media/badges.jpg) -->
 
 
-## A bit about me 
+<!-- ## A bit about me  -->
 
-![](media/species_studied.png){height="550" fig-align="center"}
+<!-- ![](media/species_studied.png){height="550" fig-align="center"} -->
 
 ## Canine Cognition and Human Interaction Lab
 
@@ -46,10 +59,15 @@ Movement to improve replicability
 ![](media/cchil_sticker_black.png){height="330"}
 ![](media/hai.jpg){height="330"}
 
-Established 2018
+:::{.fragment}
+:::{.callout-tip appearance="simple"}
+## CCHIL Mission
+We use biological and psychological approaches to understand dog behavior with the aim of improving how owners train, work with, and live with dogs
+:::
+:::
 
 
-# Replicating methods
+# How it started
 
 ## Dog impulsivity
 
@@ -72,12 +90,9 @@ Do owner perceptions of dog impulsivity match impulsivity in a behavioral task?
 :::
 :::
 
-::: {.fragment}
-Based on and replicated [Brady et al., 2018](https://doi.org/10.1016/j.applanim.2018.01.003)
-:::
 
 ::: {.source}
-[Stevens et al. 2022, _Animal Behavior & Cognition_](https://doi.org/10.26451/abc.09.03.02.2022)
+Based on and replicated [Brady et al., 2018](https://doi.org/10.1016/j.applanim.2018.01.003)
 :::
 
 
@@ -86,22 +101,22 @@ Based on and replicated [Brady et al., 2018](https://doi.org/10.1016/j.applanim.
 ### Dog Impulsivity Assessment Scale (DIAS)
 
 ::: {.fragment}
- * Behavioral regulation 
- * Aggression 
- * Responsiveness
-
-[Wright et al., 2011](https://doi.org/10.46867/ijcp.2011.24.02.03)
+![](media/dias_behavioral_regulation_ayla_verschueren_unsplash.jpg){height=330}
+![](media/dias_aggression_alexas_fotos-unsplash.jpg){height=330}
+![](media/dias_responsiveness_freepik.jpg){height=330}
 :::
 
 
 ::: {.source}
-[Stevens et al. 2022, _Animal Behavior & Cognition_](https://doi.org/10.26451/abc.09.03.02.2022)
+[Wright et al., 2011](https://doi.org/10.46867/ijcp.2011.24.02.03)
 :::
 
 
-## Measuring spatial impulsivity
+## Measuring impulsivity
 
-![](media/dog_spatial_apparatus.jpg){height="550" fig-align="center"}
+### Spatial impulsivity task
+
+![](media/dog_spatial_apparatus.jpg){height="450" fig-align="center"}
 
 ::: {.source}
 [Stevens et al. 2022, _Animal Behavior & Cognition_](https://doi.org/10.26451/abc.09.03.02.2022)
@@ -149,67 +164,68 @@ Based on and replicated [Brady et al., 2018](https://doi.org/10.1016/j.applanim.
 * Owners not good at predicting dog impulsivity
 
 * Did not replicate Brady et al., 2018
+:::
 
-  - British know their dogs better than Americans
-  <!-- - Poor attempt at replication -->
-  - Different dog populations (breeds, neuter status)
-  - Different owner populations
-  - Less than robust methods in original study
+::: {.r-stack}
+![](media/us_uk_flag.jpg){fig-align="center" height="350" .fragment}
 
+![](media/cockerspaniel.png){fig-align="center" height="400" .fragment}
+
+![](media/us_uk_office.jpg){fig-align="center" height="400" .fragment}
 :::
 
 
-## Implications
+## Lessons
 
-::: {.incremental}
-* Increase sample sizes
-* Conduct more replications (within and between labs)
-* Increase robustness and reproducibility of analyses
-* Post data publicly
-* Provide more and consistent info on owners
-* Consider populations of owners and dogs
+::: {.r-stack}
+![](media/lotsofdogs.jpg){fig-align="center" width="750" .fragment}
 
+![](media/replicable.jpeg){fig-align="center" width="750" .fragment}
+
+![](media/dogs_owners_gerrard_gethings.png){fig-align="center" width="900" .fragment}
 :::
 
 
 
-# Big team science
+# Go Big...Team!
 
 
 ## What is big team science?
 
-> Collaborations wherein a comparatively large number of researchers pool their intellectual and/or material resources to pursue a common goal
+<!-- > Collaborations wherein a comparatively large number of researchers pool their intellectual and/or material resources to pursue a common goal -->
 
----Baumgartner et al., 2023 _Royal Society Open Science_.
+<!-- ---Baumgartner et al., 2023 _Royal Society Open Science_. -->
+
+Large-scale collaborations where a large number of researchers across multiple independent research sites pool resources to conduct  the same study across sites.
+
+:::{.fragment}
+![](media/world_network.png){fig-align="center" width="750"}
+:::
 
 
 ## Why big team science?
 
-* Larger sample sizes
-* Less effort per research site
-* Consensus in methods design
-* Diverse subject pool
-* Many analysts involved in analysis
-<!-- * Shared labor in data validation and code checking -->
+::: {.r-stack}
+![](media/lotsofdogs.jpg){fig-align="center" width="900" .fragment}
+
+![](media/lotsofdogs_sites.png){fig-align="center" width="900" .fragment}
+
+![](media/dogs_owners_gerrard_gethings.png){fig-align="center" width="900" .fragment}
+:::
 
 
 ## ManyDogs Project
 
-International research consortium of scientists with shared interest in canine behavior and cognition
+International research consortium of scientists with shared interest in canine behavior and cognition ([manydogs.org](https://manydogsproject.github.io))
 
 ![](media/manydogs_banner.jpg){fig-align="center" height="300"}
 
 
-## ManyDogs Project Aims
 
-::: {.incremental}
-1. Attempt to replicate important studies
-2. Investigate moderators that require large sample sizes
-3. Develop consensus on methodological best practices
-4. Investigate cultural differences
-5. Set the bar for replicability of studies
-:::
 
+## ManyDogs Project
+
+![](media/md1_labs.png){fig-align="center" height="500"}
 
 ## ManyDogs 1
 
@@ -225,6 +241,13 @@ Do dogs treat human pointing as communicative cues?
 ![](media/dog-pointing.jpg){fig-align="center" width="550"}
 :::
 
+
+## ManyDogs 1
+
+* 704 dogs tested
+* 455 dogs with complete data
+* 20 research sites
+* UNL CCHIL tested 80 dogs and 33 completed 
 
 ## Results
 
@@ -269,27 +292,29 @@ Do dogs treat human pointing as communicative cues?
 * Dogs were slightly better than chance but no difference between conditions
 
 * Pretty consistent findings across sites
+:::
 
-* Results do not match robust literature showing point following
 
-* Likely due to method choices
+## Lessons
+::: {.r-stack}
+![](media/diversity.jpeg){fig-align="center" width="900" .fragment}
 
-* Big differences in owner age distribution
+![](media/herding_cats.png){fig-align="center" width="900" .fragment}
+
+![](media/dogs_owners_gerrard_gethings.png){fig-align="center" width="900" .fragment}
 
 :::
 
 
-## Implications
-::: {.incremental}
-* Again, consider populations of owners and dogs
-* Many analysts improved analysis
-* Diverse viewpoints can bias methods
-* Consider multi-site replication
+# How it's going
 
-:::
+## Stress detection
 
+![](media/dog-nose-kaylin-bocker-bOHVJf1RyYM-unsplash.jpg){fig-align="center" height="550"}
 
-# Going forward
+<!-- ## Stress detection -->
+
+<!-- ![](media/dog_sniff_box.png){fig-align="center" height="550"} -->
 
 ## Dog color vision
 
@@ -297,8 +322,6 @@ Do dogs treat human pointing as communicative cues?
 ![](media/color_vision_orig.jpg){height="550"}
 
 ![](media/color_vision_deut.png){.fragment height="550"}
-
-![](media/color_vision_deut_lowvis.png){.fragment height="550"}
 :::
 
 
@@ -311,53 +334,33 @@ Do dogs treat human pointing as communicative cues?
 :::
 
 
-## Dog color preference
+<!-- ## Dog color preference -->
 
-![](media/dog_color_preference_results.jpg){fig-align="center" height="550"}
+<!-- ![](media/dog_color_preference_results.jpg){fig-align="center" height="550"} -->
 
-::: {.source}
-[Roy et al. 2025, _Animal Cognition_](https://doi.org/10.1007/s10071-024-01928-9)
-:::
-
-
+<!-- ::: {.source} -->
+<!-- [Roy et al. 2025, _Animal Cognition_](https://doi.org/10.1007/s10071-024-01928-9) -->
+<!-- ::: -->
 
 
 
-## Replicability
 
-::: {.incremental}
-* Increase sample sizes
-* Conduct more replications (within and between labs)
-* Increase robustness and reproducibility of analyses
-* Post data publicly
-* Provide more and consistent info on owners
-* Consider populations of owners and dogs
-:::
 
+## Take home message
+
+![](media/dog-owners.jpg){fig-align="center" height="550"}
 
 ## Thank you!
 
-![Jessica Barela](media/jessica_barela.jpg){.absolute top=80 left=-50 width="200"}
-![Hunter DeBoer](media/hunter_deboer.jpg){.absolute top=80 left=175 width="200"}
-![Hannah Fitzpatrick](media/hannah_fitzpatrick.jpg){.absolute top=80 left=400 width="200"}
-![Anwyn Gatesy-Davis](media/anwyn_gatesy-davis.jpg){.absolute top=80 left=625 width="200" height="200"}
-![London Wolff](media/london_wolff.jpg){.absolute top=80 left=875  width="200" height="200"}
-
-[Jessica <br>Barela]{.absolute top=300 left=-50}
-[Hunter <br>DeBoer]{.absolute top=300 left=175}
-[Hannah <br>Fitzpatrick]{.absolute top=300 left=400}
-[Anwyn <br>Gatesy-Davis]{.absolute top=300 left=625}
-[London <br>Wolff]{.absolute top=300 left=875}
-
-:::{.fragment}
-![](media/nsf_logo.jpg){.absolute top=425 left=100 width="200" height="200"}
-:::
+![](media/nufoundation.png){.absolute top=125 left="22%" height="150"}
 
 ::: {.fragment}
-[`jstevens5@unl.edu`]{.absolute top=450 left=650}
-[`dogcog.unl.edu`]{.absolute top=500 left=650}
-[`@unl_cchil`]{.absolute top=550 left=650}
-[`r icons::icon_style(icons::fontawesome("envelope"), fill = "white")`]{.absolute top=455 left=600}
-[`r icons::icon_style(icons::fontawesome("home"), fill = "white")`]{.absolute top=505 left=598}
-[`r icons::icon_style(icons::fontawesome("instagram"), fill = "white")`]{.absolute top=555 left=603}
+[`jstevens5@unl.edu`]{.absolute top=350 left="30%"}
+[`dogcog.unl.edu`]{.absolute top=400 left="30%"}
+[`unl-cchil`]{.absolute top=450 left="30%"}
+[`@unl_cchil`]{.absolute top=500 left="30%"}
+[`r icons::icon_style(icons::fontawesome("envelope"), fill = "white")`]{.absolute top=355 left="25%"}
+[`r icons::icon_style(icons::fontawesome("home"), fill = "white")`]{.absolute top=405 left="25%"}
+[`r icons::icon_style(icons::fontawesome("facebook"), fill = "white")`]{.absolute top=455 left="25%"}
+[`r icons::icon_style(icons::fontawesome("instagram"), fill = "white")`]{.absolute top=505 left="25%"}
 :::
